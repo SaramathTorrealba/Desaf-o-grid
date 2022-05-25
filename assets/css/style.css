@@ -1,0 +1,41 @@
+body, html{
+  margin: 0;
+  padding: 0;
+}
+div >*{
+  padding: 10px;
+  background-color: rgb(29, 110, 110);
+}
+/*Defino el grid container*/
+.grid-container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-areas:
+  "aside"
+  "main"
+  "footer"
+  "header";
+}
+/*nombro los elementos*/
+nav{
+  grid-area: header;
+}
+aside{
+  grid-area: aside;
+}
+main{
+  grid-area: main;
+}  
+
+footer{
+  grid-area: footer;
+}
+
+@media (min-width: 500px){
+  .hola{
+    grid-template-areas:
+    "header header header header "
+    "aside main main main"
+    "footer footer footer footer";
+  }
+}
