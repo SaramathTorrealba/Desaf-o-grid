@@ -1,6 +1,7 @@
 body, html{
   margin: 0;
   padding: 0;
+  border: 0;
   background-color: lightgrey;
   font-family: ;/*definir*/
 }
@@ -16,7 +17,7 @@ body, html{
   height: 100vh;
 }
 /*nombro los elementos*/
-nav{
+header{
   grid-area: header;
   text-align: center;
   background-color: #1e365a;
