@@ -42,6 +42,7 @@ footer{
   gap: 0.8rem;
   height: 100%;
 }
+.lista
 @media (min-width: 500px){
   .hola{
     grid-template-areas:
