@@ -18,6 +18,10 @@ body, html{
 /*nombro los elementos*/
 nav{
   grid-area: header;
+  text-align: center;
+  background-color: #1e365a;
+  color: white;
+  padding: 1rem;
 }
 aside{
   grid-area: aside;
