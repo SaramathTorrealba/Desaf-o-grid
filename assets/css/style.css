@@ -1,20 +1,19 @@
 body, html{
   margin: 0;
   padding: 0;
+  background-color: lightgrey;
+  font-family: ;/*definir*/
 }
-div >*{
-  padding: 10px;
-  background-color: rgb(29, 110, 110);
-}
+
 /*Defino el grid container*/
-.grid-container{
+.contenedor{
   display: grid;
-  grid-gap: 10px;
-  grid-template-areas:
-  "aside"
-  "main"
-  "footer"
-  "header";
+  grid-template-columns: 15% 1fr;
+  grid-template-areas: 
+  " header header"
+  "aside main"
+  "footer footer";
+  height: 100vh;
 }
 /*nombro los elementos*/
 nav{
@@ -22,6 +21,7 @@ nav{
 }
 aside{
   grid-area: aside;
+
 }
 main{
   grid-area: main;
@@ -31,11 +31,18 @@ footer{
   grid-area: footer;
 }
 
+.cards-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  height: 100%;
+}
 @media (min-width: 500px){
   .hola{
     grid-template-areas:
-    "header header header header "
-    "aside main main main"
-    "footer footer footer footer";
+    "header header header header header header header header "
+    "aside main main main main main main main"
+    "footer footer footer footer footer footer footer footer";
   }
 }
+
