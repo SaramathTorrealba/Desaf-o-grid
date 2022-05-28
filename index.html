@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ecommerce</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-  <div class="contenedor">
-    <header>My Ecommerce</header>
-    <aside>
-      <div class="lista">
-      <h3>Categorías </h3>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>My Ecommerce</header>
+      <aside>
+        <div class="lista">
+          <h3 class="title-aside">Categorías</h3>
+          <ul>
+            <li><p>Perfumes  (13)</p></li>
+            <li><p>Ropa  (21)</p></li>
+            <li>
+              <p>Accesorios  (13)</p>
+            </li>
+            <li><p>Ropa  (21)</p></li>
+          </ul>
+        </div>
+      </aside>
+      <main class="main-container">
+        <section class="cards-container">
+          <div class="card">
+            <img src="./assets/img/perfume01.jpg" alt="" />
+            <h3 class="card-title">Perfume myKingdom</h3>
+            <p class="card-price">31.400</p>
+            <button class="card-buttom">Comprar</button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/perfume02.jpg" alt="" />
+            <h3 class="card-title">Perfume Phantom</h3>
+            <p class="card-price">68.900</p>
+            <button class="card-buttom">Comprar</button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/shoes01.jpg" alt="" />
+            <h3 class="card-title">Zapatos Docker</h3>
+            <p class="card-price">29.700</p>
+            <button class="card-buttom">Comprar</button>
+          </div>
+          <div class="card">
+            <img src="./assets/img/hoodie01.jpg" alt="" />
+            <h3 class="card-title">Polerón puma</h3>
+            <p class="card-price">44.700</p>
+            <button type="button" class="card-buttom">Comprar</button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>@miecommerce</p>
+      </footer>
     </div>
-    </aside>
-    <main>
-      <section class="cards-container">
-        <div>
-          <img src="./assets/img/perfume01.jpg" alt="">
-          <h3>Perfume myKingdom</h3>
-          <p>31.400</p>
-          <button> Comprar</button>
-        </div>
-        <div>
-          <img src="./assets/img/perfume02.jpg" alt="">
-          <h3>Perfume Phantom</h3>
-          <p>68.900</p>
-          <button> Comprar</button>
-        </div>
-        <div>
-          <img src="./assets/img/shoes01.jpg" alt="">
-          <h3>Zapatos Docker</h3>
-          <p>29.700</p>
-          <button> Comprar</button>
-        </div>
-        <div>
-          <img src="./assets/img/hoodie01.jpg" alt="">
-          <h3>Polerón puma</h3>
-          <p>44.700</p>
-          <button> Comprar</button>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <p>@miecommerce</p>
-    </footer>
-  </div>
-</body>
+  </body>
 </html>
